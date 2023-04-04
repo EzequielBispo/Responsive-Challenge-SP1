@@ -1,7 +1,13 @@
 body {
     color: black;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial;
+    margin: 0;
 }
+
+@font-face {
+    font-family: Arkhip;
+    src: url(Arkhip_font.otf);
+  }
 
 a {
     color: inherit; /* blue colors for links too */
@@ -13,7 +19,20 @@ nav {
     color: white;
 }
 
+.logo {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+}
+
 .itensNav {
-    margin-left: 50%;
     display: flex;
+    align-items: right;
+    justify-content: right;
+    
+}
+
+.tituloPAIF {
+    font-family: Arkhip;
+    margin: 0;
 }
