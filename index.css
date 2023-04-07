@@ -17,6 +17,7 @@ a {
 nav {
     background-color: black;
     color: white;
+    display: flex;
 }
 
 .logo {
@@ -35,4 +36,8 @@ nav {
 .tituloPAIF {
     font-family: Arkhip;
     margin: 0;
+}
+
+nav div a {
+    margin-left: ;
 }
