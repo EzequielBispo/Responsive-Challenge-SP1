@@ -1,0 +1,23 @@
+nav {
+    background-color: #6fad99;
+    color: white;
+    display: flex;
+}
+
+.itensNav {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+}
+
+.tituloPAIF {
+    font-family: Arkhip;
+    margin: 0;
+    font-weight: bold;
+}
+
+nav div a {
+    margin-left: 25px;
+    font-weight: bold;
+}
