@@ -20,4 +20,9 @@ nav {
 nav div a {
     margin-left: 25px;
     font-weight: bold;
+    padding: 2vh;
+}
+
+nav div a:hover{
+    background-color: black;
 }
