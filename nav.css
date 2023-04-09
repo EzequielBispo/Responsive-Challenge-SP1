@@ -24,5 +24,17 @@ nav div a {
 }
 
 nav div a:hover{
-    background-color: black;
+    background-color: white;
+    color: black;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+}
+
+nav div {
+    margin-inline: 2vh;
+    display: flex;
+    align-items: center;
 }
